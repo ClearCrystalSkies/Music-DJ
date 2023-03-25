@@ -1,0 +1,18 @@
+body{
+    background-size: cover;
+}
+.heading{
+    width: 90%;
+    height: 8%;
+    margin: 10px;
+    box-shadow: 5px 10px 10px 5px yellowgreen;
+    margin-bottom: 20px;
+}
+canvas{
+    border-radius: 20px;
+    border-color: black;
+    border-style: double;
+    box-shadow: 10px, 10px, 10px, darkslategray;
+    padding: 10px;
+    margin: 10px;
+}
