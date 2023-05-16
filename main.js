@@ -54,8 +54,8 @@ function gotPoses(results){
         leftWristY = results[0].pose.leftWrist.y;
         rightWristX = results[0].pose.rightWrist.x;
         righttWristY = results[0].pose.leftWrist.y;
-        console.log("LeftWristX:" + leftWristX + ", leftWristY:" + leftWristY + ", rightWristX:" + rightWristX + ", rightWristY:" + righttWristY);
-        leftWristScore = results[0].pose.keypoints[9].score;
-        rightWristScore = results[0].pose.keypoints[10].score;
+        leftWristScore = results[0].pose.keypoints[9].confidence;
+        rightWristScore = results[0].pose.keypoints[10].confidence;
+        console.log("LeftWristX:" + leftWristX + ", leftWristY:" + leftWristY + ", leftWristScore:"+" ;rightWristX:" + rightWristX + ", rightWristY:" + righttWristY + " rightWristScore:"+rightWristScore);
     }
 }
